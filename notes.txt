@@ -1,0 +1,11 @@
+Websockets solve the problem of fetching request from server by client being a one way direction. Client requests, and server responses. 
+In real time applications, we always want to have links between server and client, and even when client doesnt requesta http request, server sends stuff. 
+HTTP long polling still allows for servers. 
+
+like we have http and https we have ws and wss
+
+we wil use nodejs socket io which is javascript library to create chat apps, video callign apps etc/ It enable real time bidirectional event based communication 
+
+event based communication means that for any click eg event, or a drag and drop event, we listen to events and handle them by providng somethign to do. inBrowser javascript can listen. 
+Websocket can emit an event, and client can listen to it. This ensures two way communcaiton
+
